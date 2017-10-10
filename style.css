@@ -11,6 +11,13 @@ body{
   position: relative;
   padding: 150px 0;
 }
+
+footer{
+  padding: 25px 0;
+text-align: center;
+color: rgba(255,255,255,.3);
+background-color: #222;
+}
 .h-100{
   height: 100%!important;
 }
@@ -39,17 +46,13 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Catamaran, Helvetica,Arial,sans-serif;
-    font-weight: 200;
+    font-weight: 800;
     letter-spacing: 1px;
 }
 
 @media screen and (max-width: 480px) {
   .hero{
     padding: 150px 0;
-  }
-
-  section{
-    max-width: 100%
   }
 }
 

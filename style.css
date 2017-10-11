@@ -11,6 +11,13 @@ body{
   position: relative;
   padding: 150px 0;
 }
+.hero-alt{
+  position: relative;
+  padding: 70px 0;
+}
+.card-text{
+  font-size: 10px
+}
 
 footer{
   padding: 25px 0;
@@ -26,7 +33,10 @@ background-color: #222;
   min-height: 775px;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #2980b9;
+  background-color: #95a5a6;
+}
+.card{
+  width: 100%;
 }
 
 .vertical-center{
@@ -35,9 +45,14 @@ background-color: #222;
   
 }
 .bg-primary{
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: -o-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: -webkit-linear-gradient(#fdcc52, #fdcc52);
+  background: -o-linear-gradient(#fdcc52, #fdcc52);
+  background: linear-gradient(#fdcc52, #fdcc52);
+}
+.bg-secondary{
+  background: -webkit-linear-gradient(#ecf0f1, #ecf0f1);
+  background: -o-linear-gradient(#ecf0f1, #ecf0f1);
+  background: linear-gradient(#ecf0f1, #ecf0f1);
 }
 
 
